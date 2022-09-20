@@ -1,0 +1,50 @@
+{
+  "@class": "CameraFollowScript",
+  "id": {
+    "uuid": "D6A12A30-455A-4626-8C82-C73F110BC9F1"
+  },
+  "name": "CameraFollowScript",
+  "enableOnAwake": true,
+  "postprocessing": {
+    "uuid": "E8A9D4B2-4E99-406A-861B-6BA10BE5AA4A"
+  },
+  "objectToFollow": {
+    "uuid": "69B3343E-0E21-4C30-8FA4-BC470CC0CAF2"
+  },
+  "isFollowDisabled": false,
+  "isAutoCreateCamera": true,
+  "isTargetFixation": false,
+  "isUseLevelLimits": false,
+  "isUseCameraLimits": false,
+  "isTargetFixationAtStart": false,
+  "isTargetFixationX": false,
+  "isTargetFixationY": false,
+  "isTargetFixationZ": false,
+  "smoothSpeed": 0.15000000596046448,
+  "cameraType": "perspective",
+  "fov": 45,
+  "zNear": 0.10000000149011612,
+  "zFar": 600,
+  "zoom": 0.05723024904727936,
+  "aspectRatio": 1.3300000429153442,
+  "cameraLimitMinX": -3,
+  "cameraLimitMinY": 0,
+  "cameraLimitMinZ": 0,
+  "cameraLimitMaxX": 3,
+  "cameraLimitMaxY": 6,
+  "cameraLimitMaxZ": 0,
+  "cameraOffsetX": -5.921720003243536e-09,
+  "cameraOffsetY": 4,
+  "cameraOffsetZ": 15,
+  "cameraOffsetRotation": {
+    "values": [
+      0,
+      0,
+      0,
+      1
+    ]
+  },
+  "shouldApplyToPositionX": true,
+  "shouldApplyToPositionY": true,
+  "shouldApplyToPositionZ": true
+}
