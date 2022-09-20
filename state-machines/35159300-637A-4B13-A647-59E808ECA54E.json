@@ -1,0 +1,78 @@
+{
+  "@class": "StateMachine",
+  "id": {
+    "uuid": "35159300-637A-4B13-A647-59E808ECA54E"
+  },
+  "behavior": {
+    "@class": "StateMachineBehavior",
+    "defaultStateId": {
+      "uuid": "8FDC91CF-20CE-45DB-BCE0-04A497A8708E"
+    },
+    "anyStateId": {
+      "uuid": "402EDD53-8C90-4623-86BA-9EA6B158D6DE"
+    },
+    "transitions": [
+      {
+        "@class": "StateMachineTransition",
+        "duration": 0,
+        "offset": 0,
+        "id": {
+          "uuid": "A55F04A2-DB41-49D0-81FD-0D32742B2F20"
+        },
+        "source_id": {
+          "uuid": "8FDC91CF-20CE-45DB-BCE0-04A497A8708E"
+        },
+        "dest_id": {
+          "uuid": "C35CDDC4-65FF-4273-AF49-274EDB52EC46"
+        },
+        "test": {
+          "@class": "StateMachineTriggerTransitionTestBase",
+          "triggers": [
+            {
+              "@class": "CompareTrigger",
+              "id": {
+                "uuid": "4B67CF18-32E9-4B41-A36F-AAF4A86FDFA8"
+              },
+              "ownerScriptId": {
+                "uuid": "A55F04A2-DB41-49D0-81FD-0D32742B2F20"
+              },
+              "logicOperation": 0,
+              "resultType": 0,
+              "isInverted": false,
+              "operation": "==",
+              "eventType": "result_true_started",
+              "leftOperand": "object__2DF29F1F_5456_4BE1_8855_BDC86880A40D__start",
+              "rightOperand": "true"
+            }
+          ]
+        }
+      }
+    ]
+  },
+  "states": [
+    {
+      "@class": "StateMachineState",
+      "actions": [],
+      "displayName": "Any state",
+      "id": {
+        "uuid": "402EDD53-8C90-4623-86BA-9EA6B158D6DE"
+      }
+    },
+    {
+      "@class": "StateMachineState",
+      "actions": [],
+      "displayName": "State 1",
+      "id": {
+        "uuid": "8FDC91CF-20CE-45DB-BCE0-04A497A8708E"
+      }
+    },
+    {
+      "@class": "StateMachineState",
+      "actions": [],
+      "displayName": "Box Moved",
+      "id": {
+        "uuid": "C35CDDC4-65FF-4273-AF49-274EDB52EC46"
+      }
+    }
+  ]
+}

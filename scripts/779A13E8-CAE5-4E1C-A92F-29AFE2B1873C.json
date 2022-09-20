@@ -1,0 +1,68 @@
+{
+  "@class": "TimeLineScript",
+  "id": {
+    "uuid": "779A13E8-CAE5-4E1C-A92F-29AFE2B1873C"
+  },
+  "name": "Animation",
+  "enableOnAwake": false,
+  "loop": false,
+  "jumpToFirstFrameAtEnd": false,
+  "speed": 1,
+  "weight": 1,
+  "loopStartTime": 0,
+  "loopDuration": 0,
+  "is_imported": false,
+  "type": "user",
+  "scripts": {
+    "@class": "StdListRuntimeScript",
+    "list": [
+      {
+        "@class": "AnimationScript",
+        "id": {
+          "uuid": "7FA9710E-6F17-4A22-8DBD-8A9F7EDCB968"
+        },
+        "name": "AnimationScript",
+        "enableOnAwake": false,
+        "OwnerLink": {
+          "@class": "BindingLink",
+          "targetId": {
+            "uuid": "EF6389C8-0264-4602-A6FF-655DD548672F"
+          }
+        },
+        "animation": {
+          "uuid": "E92E6C27-AADC-45DC-9719-96A0872B8D4E"
+        },
+        "AnimationType": "object3D",
+        "is_imported": false,
+        "isEnabled": true
+      }
+    ]
+  },
+  "triggers": [
+    {
+      "@class": "StateMachineTrigger",
+      "id": {
+        "uuid": "30C147CD-BF90-448A-B2B2-676AB5022A36"
+      },
+      "ownerScriptId": {
+        "uuid": "779A13E8-CAE5-4E1C-A92F-29AFE2B1873C"
+      },
+      "logicOperation": 0,
+      "resultType": 0,
+      "isInverted": false,
+      "event": 1,
+      "stateBindingLink": {
+        "@class": "BindingLink",
+        "targetId": {
+          "uuid": "C35CDDC4-65FF-4273-AF49-274EDB52EC46"
+        }
+      },
+      "objectBindingLink": {
+        "@class": "BindingLink",
+        "targetId": {
+          "uuid": "DA15CA4B-C43B-43E3-A892-A674CE2B6E0E"
+        }
+      }
+    }
+  ]
+}

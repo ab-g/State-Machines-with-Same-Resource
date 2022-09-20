@@ -16,6 +16,16 @@
   "isTargetFixation": false,
   "isUseLevelLimits": false,
   "isUseCameraLimits": false,
+  "is3dFollow": false,
+  "isColliderCasting": false,
+  "castingRadius": 0,
+  "castingIndent": 0,
+  "castingTarget": {
+    "uuid": "F145B607-62B2-40E0-A4A8-D931E1EC57DE"
+  },
+  "mouseLookSpeed": 0,
+  "mouseLookLimitMin": 0,
+  "mouseLookLimitMax": 0,
   "isTargetFixationAtStart": false,
   "isTargetFixationX": false,
   "isTargetFixationY": false,

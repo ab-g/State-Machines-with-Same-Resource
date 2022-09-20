@@ -12,6 +12,24 @@
       "name": "object__C95EA845_BC44_4DCC_857D_B0257C48D480__animation_playing",
       "type": "float",
       "value": 0
+    },
+    {
+      "@class": "VariantVariable",
+      "id": {
+        "uuid": "4362AF1F-332C-4BCD-A748-57522C54223E"
+      },
+      "name": "object__EF6389C8_0264_4602_A6FF_655DD548672F__start",
+      "type": "bool",
+      "value": false
+    },
+    {
+      "@class": "VariantVariable",
+      "id": {
+        "uuid": "3FF51ECA-E7A7-4B65-A18F-4942546422CD"
+      },
+      "name": "object__4511A32C_518E_4554_810A_8AE2C9040684__start",
+      "type": "bool",
+      "value": false
     }
   ]
 }

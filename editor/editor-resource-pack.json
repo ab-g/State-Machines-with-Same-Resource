@@ -1,4 +1,7 @@
 {
+  "id": {
+    "uuid": "4D1EC1F6-8C5B-40DA-B152-BB68E2564913"
+  },
   "scenes": [
     {
       "key": {
@@ -10,6 +13,15 @@
         },
         "position": -1,
         "timelines": [
+          {
+            "uuid": "EFEEFE90-EAA7-46AB-A523-B04E96B96AD2"
+          },
+          {
+            "uuid": "BCCC5DC9-6CD6-4E55-BB11-554D16686882"
+          },
+          {
+            "uuid": "0A6564FB-5B26-42C8-9B2D-963A728E1227"
+          },
           {
             "uuid": "66442C88-8D89-41F7-9C93-A7795920617B"
           },
@@ -99,11 +111,157 @@
           },
           {
             "uuid": "EDC8E0C0-6D50-48A4-96A8-936A190C4E66"
+          },
+          {
+            "uuid": "B4B3245C-5416-41A8-86B9-01BDEB99D195"
+          },
+          {
+            "uuid": "779A13E8-CAE5-4E1C-A92F-29AFE2B1873C"
+          },
+          {
+            "uuid": "70D2AB17-DD6D-4E1B-BA6C-21B605D8BF68"
           }
         ],
         "scriptSystem": {
           "timelines": []
         }
+      }
+    }
+  ],
+  "stateMachines": [
+    {
+      "key": {
+        "uuid": "35159300-637A-4B13-A647-59E808ECA54E"
+      },
+      "value": {
+        "id": {
+          "uuid": "35159300-637A-4B13-A647-59E808ECA54E"
+        },
+        "states": [
+          {
+            "key": {
+              "uuid": "402EDD53-8C90-4623-86BA-9EA6B158D6DE"
+            },
+            "value": {
+              "id": {
+                "uuid": "402EDD53-8C90-4623-86BA-9EA6B158D6DE"
+              },
+              "left": 533,
+              "top": 190,
+              "manualWidth": 113,
+              "colorIndex": 0
+            }
+          },
+          {
+            "key": {
+              "uuid": "8FDC91CF-20CE-45DB-BCE0-04A497A8708E"
+            },
+            "value": {
+              "id": {
+                "uuid": "8FDC91CF-20CE-45DB-BCE0-04A497A8708E"
+              },
+              "left": 80.52581787109375,
+              "top": 228.29605102539062,
+              "manualWidth": 123,
+              "colorIndex": 0
+            }
+          },
+          {
+            "key": {
+              "uuid": "C35CDDC4-65FF-4273-AF49-274EDB52EC46"
+            },
+            "value": {
+              "id": {
+                "uuid": "C35CDDC4-65FF-4273-AF49-274EDB52EC46"
+              },
+              "left": 321.72137451171875,
+              "top": 226.09092712402344,
+              "manualWidth": -1,
+              "colorIndex": 0
+            }
+          }
+        ],
+        "transitions": [
+          {
+            "key": {
+              "uuid": "A55F04A2-DB41-49D0-81FD-0D32742B2F20"
+            },
+            "value": {
+              "id": {
+                "uuid": "A55F04A2-DB41-49D0-81FD-0D32742B2F20"
+              },
+              "startPoint": {
+                "id": {
+                  "uuid": "00000000-0000-0000-0000-000000000000"
+                },
+                "x": 0,
+                "y": 0
+              },
+              "endPoint": {
+                "id": {
+                  "uuid": "00000000-0000-0000-0000-000000000000"
+                },
+                "x": 0,
+                "y": 0
+              },
+              "points": [
+                {
+                  "key": {
+                    "uuid": "919FC371-44A7-404A-AEDA-E406631020BD"
+                  },
+                  "value": {
+                    "id": {
+                      "uuid": "919FC371-44A7-404A-AEDA-E406631020BD"
+                    },
+                    "x": 294.06658935546875,
+                    "y": 246.9971923828125
+                  }
+                }
+              ]
+            }
+          }
+        ]
+      }
+    },
+    {
+      "key": {
+        "uuid": "EECEC7BF-0699-44EB-A13D-CF026AEC494D"
+      },
+      "value": {
+        "id": {
+          "uuid": "EECEC7BF-0699-44EB-A13D-CF026AEC494D"
+        },
+        "states": [
+          {
+            "key": {
+              "uuid": "CE4A0A91-01EF-4F54-9146-1578C864CCBC"
+            },
+            "value": {
+              "id": {
+                "uuid": "CE4A0A91-01EF-4F54-9146-1578C864CCBC"
+              },
+              "left": 301,
+              "top": 190,
+              "manualWidth": 123,
+              "colorIndex": 0
+            }
+          },
+          {
+            "key": {
+              "uuid": "D02D1796-069F-463E-AF6D-4861DE04BAF5"
+            },
+            "value": {
+              "id": {
+                "uuid": "D02D1796-069F-463E-AF6D-4861DE04BAF5"
+              },
+              "left": 533,
+              "top": 190,
+              "manualWidth": 113,
+              "colorIndex": 0
+            }
+          }
+        ],
+        "transitions": []
       }
     }
   ]

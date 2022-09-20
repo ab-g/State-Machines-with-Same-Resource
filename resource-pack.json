@@ -1,5 +1,76 @@
 {
   "@class": "ResourcePack",
+  "animations": {
+    "@class": "StdResourceMapAnimation",
+    "map": [
+      {
+        "key": {
+          "uuid": "274AB910-0BB8-4F0E-920B-4C5D5EF3B854"
+        },
+        "value": {
+          "@class": "Animation",
+          "id": {
+            "uuid": "274AB910-0BB8-4F0E-920B-4C5D5EF3B854"
+          }
+        }
+      },
+      {
+        "key": {
+          "uuid": "B238ED0E-9AAE-4D4D-84FE-7F5EE4BDF812"
+        },
+        "value": {
+          "@class": "Animation",
+          "id": {
+            "uuid": "B238ED0E-9AAE-4D4D-84FE-7F5EE4BDF812"
+          }
+        }
+      },
+      {
+        "key": {
+          "uuid": "BF0563AF-A53A-4603-9293-54C8D1084866"
+        },
+        "value": {
+          "@class": "Animation",
+          "id": {
+            "uuid": "BF0563AF-A53A-4603-9293-54C8D1084866"
+          }
+        }
+      },
+      {
+        "key": {
+          "uuid": "E92E6C27-AADC-45DC-9719-96A0872B8D4E"
+        },
+        "value": {
+          "@class": "Animation",
+          "id": {
+            "uuid": "E92E6C27-AADC-45DC-9719-96A0872B8D4E"
+          }
+        }
+      },
+      {
+        "key": {
+          "uuid": "F6B5BB76-7D81-44B7-9D15-49131256B385"
+        },
+        "value": {
+          "@class": "Animation",
+          "id": {
+            "uuid": "F6B5BB76-7D81-44B7-9D15-49131256B385"
+          }
+        }
+      },
+      {
+        "key": {
+          "uuid": "F9B49E7C-E6E2-4691-A079-C0684B0F84DA"
+        },
+        "value": {
+          "@class": "Animation",
+          "id": {
+            "uuid": "F9B49E7C-E6E2-4691-A079-C0684B0F84DA"
+          }
+        }
+      }
+    ]
+  },
   "cameras": {
     "@class": "StdResourceMapCamera",
     "map": [
@@ -21,12 +92,45 @@
     "map": [
       {
         "key": {
+          "uuid": "38FD3CA6-43D9-4D5F-BB82-A197B7C514FF"
+        },
+        "value": {
+          "@class": "Collider",
+          "id": {
+            "uuid": "38FD3CA6-43D9-4D5F-BB82-A197B7C514FF"
+          }
+        }
+      },
+      {
+        "key": {
           "uuid": "3BF92E38-04DF-46A6-A60E-CB76667083A9"
         },
         "value": {
           "@class": "Collider",
           "id": {
             "uuid": "3BF92E38-04DF-46A6-A60E-CB76667083A9"
+          }
+        }
+      },
+      {
+        "key": {
+          "uuid": "689D3E38-5108-4577-BDAE-9E1F9A134D66"
+        },
+        "value": {
+          "@class": "Collider",
+          "id": {
+            "uuid": "689D3E38-5108-4577-BDAE-9E1F9A134D66"
+          }
+        }
+      },
+      {
+        "key": {
+          "uuid": "E3FF4E52-F78E-4C28-9E39-212A79C752E6"
+        },
+        "value": {
+          "@class": "Collider",
+          "id": {
+            "uuid": "E3FF4E52-F78E-4C28-9E39-212A79C752E6"
           }
         }
       }
@@ -57,12 +161,45 @@
     "map": [
       {
         "key": {
+          "uuid": "1DDD7FBC-1A30-4364-A1F0-99FDB51DA951"
+        },
+        "value": {
+          "@class": "Material",
+          "id": {
+            "uuid": "1DDD7FBC-1A30-4364-A1F0-99FDB51DA951"
+          }
+        }
+      },
+      {
+        "key": {
           "uuid": "4D48F86D-ECE2-462D-8509-5CC70644CDBC"
         },
         "value": {
           "@class": "Material",
           "id": {
             "uuid": "4D48F86D-ECE2-462D-8509-5CC70644CDBC"
+          }
+        }
+      },
+      {
+        "key": {
+          "uuid": "54401315-631C-4ECB-8658-010EC0D9A5F5"
+        },
+        "value": {
+          "@class": "Material",
+          "id": {
+            "uuid": "54401315-631C-4ECB-8658-010EC0D9A5F5"
+          }
+        }
+      },
+      {
+        "key": {
+          "uuid": "EC6C925C-3865-4361-9DD2-D466A9F16343"
+        },
+        "value": {
+          "@class": "Material",
+          "id": {
+            "uuid": "EC6C925C-3865-4361-9DD2-D466A9F16343"
           }
         }
       }
@@ -73,12 +210,45 @@
     "map": [
       {
         "key": {
+          "uuid": "13CBAD97-BD00-43B6-ABFD-83D99384DAA2"
+        },
+        "value": {
+          "@class": "BoxMesh",
+          "id": {
+            "uuid": "13CBAD97-BD00-43B6-ABFD-83D99384DAA2"
+          }
+        }
+      },
+      {
+        "key": {
+          "uuid": "1F3AD187-CBB4-4E73-B7A2-11BEDE5956D0"
+        },
+        "value": {
+          "@class": "BoxMesh",
+          "id": {
+            "uuid": "1F3AD187-CBB4-4E73-B7A2-11BEDE5956D0"
+          }
+        }
+      },
+      {
+        "key": {
           "uuid": "2DFB2E0B-E99A-4A53-8D30-B57257AF17EB"
         },
         "value": {
           "@class": "Mesh",
           "id": {
             "uuid": "2DFB2E0B-E99A-4A53-8D30-B57257AF17EB"
+          }
+        }
+      },
+      {
+        "key": {
+          "uuid": "3411689B-768B-42A8-8ACF-F8D359F1F8D0"
+        },
+        "value": {
+          "@class": "BoxMesh",
+          "id": {
+            "uuid": "3411689B-768B-42A8-8ACF-F8D359F1F8D0"
           }
         }
       }
@@ -89,12 +259,45 @@
     "map": [
       {
         "key": {
+          "uuid": "42C66515-4112-4AC6-8628-86958023C9B2"
+        },
+        "value": {
+          "@class": "PhysicsBody",
+          "id": {
+            "uuid": "42C66515-4112-4AC6-8628-86958023C9B2"
+          }
+        }
+      },
+      {
+        "key": {
           "uuid": "70D69DB0-8308-441B-BD47-892C70F11781"
         },
         "value": {
           "@class": "PhysicsBody",
           "id": {
             "uuid": "70D69DB0-8308-441B-BD47-892C70F11781"
+          }
+        }
+      },
+      {
+        "key": {
+          "uuid": "83CC5334-42DB-41E7-8632-FBC25CA3C25B"
+        },
+        "value": {
+          "@class": "PhysicsBody",
+          "id": {
+            "uuid": "83CC5334-42DB-41E7-8632-FBC25CA3C25B"
+          }
+        }
+      },
+      {
+        "key": {
+          "uuid": "DFC8E4C3-0913-40CC-82D0-4BA124A02100"
+        },
+        "value": {
+          "@class": "PhysicsBody",
+          "id": {
+            "uuid": "DFC8E4C3-0913-40CC-82D0-4BA124A02100"
           }
         }
       }
@@ -116,13 +319,21 @@
       }
     ]
   },
-  "skinControllers": {
-    "@class": "StdResourceMapSkinController",
-    "map": []
-  },
-  "soundSamples": {
-    "@class": "StdResourceMapSoundSample",
-    "map": []
+  "stateMachines": {
+    "@class": "StdResourceMapStateMachine",
+    "map": [
+      {
+        "key": {
+          "uuid": "35159300-637A-4B13-A647-59E808ECA54E"
+        },
+        "value": {
+          "@class": "StateMachine",
+          "id": {
+            "uuid": "35159300-637A-4B13-A647-59E808ECA54E"
+          }
+        }
+      }
+    ]
   },
   "textures2d": {
     "@class": "StdResourceMapTexture2D",
